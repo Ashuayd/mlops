@@ -1,7 +1,7 @@
-#import sys
-#sys.path += ['../src']
+import sys
+sys.path += ['../src']
 
-#from test_fun import *
+from test_fun import *
 
 def func(x):
     return x + 2
